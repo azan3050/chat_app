@@ -1,0 +1,2 @@
+D:/code/new_chat_app/android/app/.cxx/RelWithDebInfo/5y4s3wo3/x86/CMakeFiles/edit_cache.dir
+D:/code/new_chat_app/android/app/.cxx/RelWithDebInfo/5y4s3wo3/x86/CMakeFiles/rebuild_cache.dir
