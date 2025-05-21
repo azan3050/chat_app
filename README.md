@@ -1,6 +1,6 @@
 # 💬 Flutter Chat App
 
-A cross-platform real-time chat application built using **Flutter** for mobile and web, powered by **Firebase** backend services and featuring a **custom chat UI**. This app supports 1-on-1 messaging with user presence, profile pictures, last seen, and more.
+A cross-platform real-time chat application built using **Flutter** for mobile and web, powered by **Firebase** backend services and featuring a **custom chat UI**. This app supports 1-on-1 messaging with user presence.
 
 ## 🚀 Features
 
