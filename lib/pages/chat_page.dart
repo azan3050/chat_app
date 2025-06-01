@@ -31,7 +31,7 @@ class ChatPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
         title: Text(recieverEmail),
         centerTitle: true,
@@ -104,7 +104,7 @@ class ChatPage extends StatelessWidget {
           //send button
           Container(
               decoration:
-                  BoxDecoration(shape: BoxShape.circle, color: Colors.green),
+                  const BoxDecoration(shape: BoxShape.circle, color: Colors.green),
               child: IconButton(
                   onPressed: sendMessage,
                   icon: const Icon(Icons.arrow_upward,

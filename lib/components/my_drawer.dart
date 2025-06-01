@@ -6,6 +6,7 @@ class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
 
   void logout() {
+    // ignore: no_leading_underscores_for_local_identifiers
     final _auth = AuthService();
     _auth.signOut();
   }
@@ -56,7 +57,7 @@ class MyDrawer extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => SettingsPage()));
+                            builder: (context) => const SettingsPage()));
                   },
                 ),
               ),

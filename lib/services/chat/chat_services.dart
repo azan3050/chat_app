@@ -61,4 +61,7 @@ class ChatService {
         .orderBy("timestamp", descending: false)
         .snapshots();
   }
+
+  //add profile photo
+  
 }
